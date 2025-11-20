@@ -1,0 +1,28 @@
+Tailwind: it is a frame work which is used to add css in projects to style our project
+
+How to install:
+   use href link from tailwind website to install install
+
+
+   2nd way:
+
+      run cmd
+       npm install -D tailwindcss@3 postcss autoprefixer
+        then
+          npx tailwindcss init -p
+           after this check either tailwindcss extention is install or not
+             next
+               go to tailwind.config.js and
+                   content: [], change to   content: ["*"],
+                     next go to pkj.json
+                        "scripts": {
+    "start": "vite",
+                        },
+
+create file of main.css and add
+   @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
